@@ -73,3 +73,8 @@ Simple, vanilla U-Net implementation is done.
 | ------------- | ------------- |
 | Jaccard Index (training) | NA |
 | Jaccard Index (testing) | NA |
+
+## Results
+
+<img src="https://github.com/Enthusiast101/Covid-19-Lung-Infection-Segmentation/assets/89479662/08f10997-ef64-4510-bb42-0927a22e430d" width="1100" height="500" /> 
+
