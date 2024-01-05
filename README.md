@@ -13,8 +13,14 @@ After preprocessing we recieve .nii images of ct_scan, lung_mask, infection_mask
 These images are then processed and arranged in lung and infection sets with dimesion (3520, 128, 128, 1) each.
 
 ## Data Augmentation
-Minimal Data augmentation is done in model layer itself.
-'DA' abbreviation is marked when data augmentation layers are applied
+Minimal Data augmentation is done in model layer itself.  
+'DA' abbreviation is marked when data augmentation layers are applied.  
+
+**Parameters**
+**RandomRotation:** 10 degrees  
+**RandomZoom:** 0.1 scale  
+**RandomContrast:** 0.1 scale  
+**GaussianNoise:** 10 deviation  
 
 ## Models
 ### U-Net
@@ -85,5 +91,5 @@ Simple, vanilla U-Net implementation is done.
 
 ## Results
 
-<img src="https://github.com/Enthusiast101/Covid-19-Lung-Infection-Segmentation/assets/89479662/08f10997-ef64-4510-bb42-0927a22e430d" width="1100" height="500" /> 
+<img src="https://github.com/Enthusiast101/Covid-19-Lung-Infection-Segmentation/assets/89479662/7b3f3665-854b-4078-a15a-a70b9a733d19" width="1100" height="550" /> 
 
