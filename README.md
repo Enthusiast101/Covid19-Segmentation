@@ -1,4 +1,11 @@
 # **COVID 19 Lung Segmentation using various U-Net Models**
+
+## Computational Resources
+These models were trained and validated using these resources:
+CPU: AMD Ryzen 5800H
+GPU: NVDIA RTX 3050 mobile (4GB)
+RAM: 16 GB DDR4
+
 ## Data
 The original data is availaible at [Covid-19 CT scans](https://www.kaggle.com/datasets/andrewmvd/covid19-ct-scans) and data preprocessing is done on it.
 
@@ -73,6 +80,8 @@ Simple, vanilla U-Net implementation is done.
 | ------------- | ------------- |
 | Jaccard Index (training) | NA |
 | Jaccard Index (testing) | NA |
+
+*Note*: NA indicates the loss of computational resources and not that the model behaved poorly.
 
 ## Results
 
