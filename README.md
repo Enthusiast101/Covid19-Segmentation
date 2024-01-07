@@ -93,3 +93,4 @@ Simple, vanilla U-Net implementation is done.
 
 <img src="https://github.com/Enthusiast101/Covid-19-Lung-Infection-Segmentation/assets/89479662/7b3f3665-854b-4078-a15a-a70b9a733d19" width="1100" height="550" /> 
 
+*Note: NA indicates the lack of better computational resources and not that the model behaved poorly.*
