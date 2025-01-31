@@ -16,7 +16,7 @@ if uploaded_file:
 
 if st.button("Submit"):
     files = {"image": uploaded_file.getbuffer()}
-    response = requests.post("http://localhost:5000//model", files=files)
+    response = requests.post("https://covid19-segmentation.onrender.com//model", files=files)
 
     if response.status_code == 200:
         data = response.json()
