@@ -1,5 +1,8 @@
 # **COVID 19 Lung Segmentation using various U-Net Models**
 
+## Try the model
+**Link:** https://covid-lung-segmentation.streamlit.app/
+
 ## Computational Resources
 These models were trained and validated using these resources:  
 **CPU:** AMD Ryzen 5800H  
